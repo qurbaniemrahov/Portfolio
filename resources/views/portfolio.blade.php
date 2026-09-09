@@ -52,7 +52,6 @@
                 <div class="portrait-wrap">
                     <div class="portrait-frame"><img src="{{ asset('assets/images/qurbani-emrahov.png') }}" alt="Portrait of Qurbani Əmrahov"></div>
                     <div class="orbit-label"><span>BACK-END DEVELOPER · LARAVEL · </span></div>
-                    <div class="code-card"><span>currently_at</span><strong>Toolino LLC</strong><small>since Sep. 2023</small></div>
                 </div>
             </div>
             <div class="hero-index">01 / 05</div>
