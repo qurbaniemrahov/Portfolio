@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><script>
+fetch('./resources/views/portfolio.blade.php').then(r=>r.text()).then(html=>{
+  html=html.replaceAll("{{ asset('assets/css/app.css') }}",'./public/assets/css/app.css')
+    .replaceAll("{{ asset('assets/images/qurbani-emrahov.png') }}",'./public/assets/images/qurbani-emrahov.png')
+    .replaceAll("{{ asset('assets/js/app.js') }}",'./public/assets/js/app.js')
+    .replace("{{ date('Y') }}",new Date().getFullYear());
+  document.open();document.write(html);document.close();
+});
+</script>
